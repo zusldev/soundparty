@@ -42,13 +42,11 @@ kbd {
     transform: scale(0.9);
 }
 .imgbar {
-    width: 100%;
-    height: 100%;
-    /* background-color: #703ab733; */
-    border-radius: 5px;
-    position: absolute;
+    width: 520px;
+    height: 220px;
+    position: flex;
     top: 0px;
-    left: 0;
+    left: 0px;
     z-index: -1;
     transition: all 0.07s;
 }
