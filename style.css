@@ -39,11 +39,13 @@ kbd {
 }
 .playing {
     box-shadow: 0 0 30px 0 rgba(255, 255, 255, 0.5);
+    transform: scale(0.9);
 }
 
 .key:active {
     transform: scale(0.9);
 }
+
 h1 {
     font-size: 30px;
     color: #ffc107;
