@@ -6,13 +6,13 @@ function playSound(e) {
     if (!audio) return;
     audio.currentTime = 0;
     audio.play();
-    document.getElementById("myName").style.transform = "scale(1.2)";
+    // document.getElementById("myName").style.transform = "scale(1.2)";
     key.classList.add("playing");
 }
 
 function removeTransition(e) {
     if (e.propertyName !== "box-shadow") return;
-    document.getElementById("myName").style.transform = "scale(1.0)";
+    // document.getElementById("myName").style.transform = "scale(1.0)";
     this.classList.remove("playing");
 }
 
