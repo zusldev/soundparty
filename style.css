@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+body {
+    font-family: "Ubuntu";
+    text-align: center;
+    color: #fff;
+    background-color: #1d1e22;
+}
+.keys {
+    max-width: 600px;
+    overflow: hidden;
+    cursor: pointer;
+    position: flex;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.key {
+    width: 160px;
+    height: 160px;
+    float: left;
+    transition: all 0.07s;
+    border-radius: 5px;
+    background-color: #703ab733;
+    margin: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+kbd {
+    display: block;
+    padding-top: 30px;
+    font-size: 60px;
+    color: #ffc107;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.playing {
+    box-shadow: 0 0 30px 0 rgba(255, 255, 255, 0.5);
+}
+
+.key:active {
+    transform: scale(0.9);
+}
+h1 {
+    font-size: 30px;
+    color: #ffc107;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 150px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Sound party</title>
+    </head>
+    <body>
+        <div id="keys" class="keys">
+            <div id="65" data-key="65" class="key">
+                <kbd>A</kbd><span class="sound">Open Hat</span>
+            </div>
+            <div id="83" data-key="83" class="key">
+                <kbd>S</kbd><span class="sound">Clap</span>
+            </div>
+            <div id="68" data-key="68" class="key">
+                <kbd>D</kbd><span class="sound">Hi hat</span>
+            </div>
+            <div id="70" data-key="70" class="key">
+                <kbd>F</kbd><span class="sound">Kick</span>
+            </div>
+            <div id="71" data-key="71" class="key">
+                <kbd>G</kbd><span class="sound">Boom</span>
+            </div>
+            <div id="72" data-key="72" class="key">
+                <kbd>H</kbd><span class="sound">Ride</span>
+            </div>
+            <div id="74" data-key="74" class="key">
+                <kbd>J</kbd><span class="sound">Snare</span>
+            </div>
+            <div id="75" data-key="75" class="key">
+                <kbd>K</kbd><span class="sound">Tomb</span>
+            </div>
+            <div id="76" data-key="76" class="key">
+                <kbd>L</kbd><span class="sound">Tink</span>
+            </div>
+        </div>
+
+        <h1 id="myName">Liborio Zuñiga</h1>
+
+        <audio
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/67723/clap.wav"
+            data-key="83"
+            id="83Audio"
+        ></audio>
+        <audio
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/67723/hihat.wav"
+            data-key="68"
+            id="68Audio"
+        ></audio>
+        <audio
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/67723/kick.wav"
+            data-key="70"
+            id="70Audio"
+        ></audio>
+        <audio
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/67723/openhat.wav"
+            data-key="65"
+            id="65Audio"
+        ></audio>
+        <audio
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/67723/boom.wav"
+            data-key="71"
+            id="71Audio"
+        ></audio>
+        <audio
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/67723/ride.wav"
+            data-key="72"
+            id="72Audio"
+        ></audio>
+        <audio
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/67723/snare.wav"
+            data-key="74"
+            id="74Audio"
+        ></audio>
+        <audio
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/67723/tom.wav"
+            data-key="75"
+            id="75Audio"
+        ></audio>
+        <audio
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/67723/tink.wav"
+            data-key="76"
+            id="76Audio"
+        ></audio>
+        <script src="index.js"></script>
+        <script src="onclick.js"></script>
+    </body>
+</html>
